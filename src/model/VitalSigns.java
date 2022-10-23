@@ -79,6 +79,7 @@ public class VitalSigns {
         else return true;
     }
 
+    
     public boolean inAgeRange(double age, double min, double max){
         if((age>min) && (age<=max))return true;
         else return false;
